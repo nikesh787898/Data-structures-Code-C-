@@ -29,7 +29,7 @@ class BreadthFirstSearch
 		graph[7][8]=1;
 		graph[7][5]=1;
 	}
-	void deapthFirstSearch(int start)
+	void breadthirstSearch(int start)
 	{
 		for(int i=0;i<n;i++)
 			state[i]=INIT;
@@ -57,5 +57,5 @@ class BreadthFirstSearch
 int main()
 {
 	BreadthFirstSearch *search=new BreadthFirstSearch();
-	search->deapthFirstSearch(0);
+	search->breadthirstSearch(0);
 }
